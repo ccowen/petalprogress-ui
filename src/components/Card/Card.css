@@ -1,0 +1,32 @@
+.pp-card {
+  border-radius: var(--pp-radius-card);
+  transition: box-shadow var(--pp-transition-base),
+    transform var(--pp-transition-base);
+}
+
+/* Variants */
+.pp-card-surface {
+  background: var(--pp-surface);
+  border: 1px solid var(--pp-warm-1);
+  box-shadow: var(--pp-shadow-card);
+}
+
+.pp-card-dark {
+  background: var(--pp-dark);
+  color: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 48px rgba(30, 26, 23, 0.18);
+}
+
+/* Padding */
+.pp-card-pad-sm {
+  padding: var(--pp-space-4);
+}
+
+.pp-card-pad-md {
+  padding: var(--pp-space-6);
+}
+
+.pp-card-pad-lg {
+  padding: var(--pp-space-10);
+}

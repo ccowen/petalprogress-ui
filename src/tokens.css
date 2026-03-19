@@ -1,0 +1,55 @@
+:root {
+  /* ── Colors ── */
+  --pp-bg: #F8F6F3;
+  --pp-surface: #FDFCFA;
+  --pp-warm-1: #EDE9E3;
+  --pp-warm-2: #D4CEC7;
+  --pp-warm-3: #9C958D;
+
+  --pp-text: #2C2825;
+  --pp-text-soft: #6B6460;
+  --pp-text-muted: #A09890;
+
+  --pp-dark: #1E1A17;
+  --pp-dark-2: #2A2420;
+
+  /* ── Accents ── */
+  --pp-sage: #8FA68C;
+  --pp-sage-hover: #7d9479;
+  --pp-blue: #7B9BAF;
+  --pp-coral: #C45A5A;
+  --pp-amber: #C4887A;
+
+  /* ── Typography ── */
+  --pp-font-display: 'Cormorant Garamond', serif;
+  --pp-font-body: 'DM Sans', sans-serif;
+
+  /* ── Radii ── */
+  --pp-radius-sm: 8px;
+  --pp-radius-input: 10px;
+  --pp-radius-card: 18px;
+  --pp-radius-modal: 22px;
+  --pp-radius-pill: 100px;
+
+  /* ── Shadows ── */
+  --pp-shadow-card: 0 4px 24px rgba(0, 0, 0, 0.04);
+  --pp-shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.06);
+  --pp-shadow-modal: 0 24px 64px rgba(0, 0, 0, 0.14);
+  --pp-shadow-sage: 0 4px 16px rgba(143, 166, 140, 0.3);
+
+  /* ── Transitions ── */
+  --pp-transition-fast: 0.15s ease;
+  --pp-transition-base: 0.2s ease;
+  --pp-transition-slow: 0.3s ease;
+
+  /* ── Spacing (4px grid) ── */
+  --pp-space-1: 4px;
+  --pp-space-2: 8px;
+  --pp-space-3: 12px;
+  --pp-space-4: 16px;
+  --pp-space-5: 20px;
+  --pp-space-6: 24px;
+  --pp-space-8: 32px;
+  --pp-space-10: 40px;
+  --pp-space-12: 48px;
+}

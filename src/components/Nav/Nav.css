@@ -1,0 +1,73 @@
+.pp-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 56px;
+  border-bottom: 1px solid rgba(212, 206, 199, 0.5);
+  font-family: var(--pp-font-body);
+}
+
+.pp-nav-marketing {
+  background: rgba(253, 252, 250, 0.85);
+  backdrop-filter: blur(14px);
+}
+
+.pp-nav-app {
+  background: var(--pp-surface);
+}
+
+.pp-nav-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pp-nav-logo {
+  font-family: var(--pp-font-display);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--pp-text);
+  text-decoration: none;
+  margin-right: var(--pp-space-8);
+}
+
+.pp-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pp-nav-link {
+  padding: 6px 16px;
+  border-radius: var(--pp-radius-pill);
+  font-size: 13px;
+  color: var(--pp-text-soft);
+  text-decoration: none;
+  transition: all var(--pp-transition-fast);
+}
+
+.pp-nav-link:hover {
+  background: var(--pp-warm-1);
+  color: var(--pp-text);
+}
+
+.pp-nav-link-active {
+  background: var(--pp-dark);
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 500;
+}
+
+.pp-nav-link-active:hover {
+  background: var(--pp-dark);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.pp-nav-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--pp-space-3);
+}

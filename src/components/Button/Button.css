@@ -1,0 +1,73 @@
+.pp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--pp-space-2);
+  border: none;
+  border-radius: var(--pp-radius-pill);
+  font-family: var(--pp-font-body);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--pp-transition-base);
+  text-decoration: none;
+  line-height: 1;
+}
+
+/* Sizes */
+.pp-btn-md {
+  padding: 11px 24px;
+  font-size: 13.5px;
+}
+
+.pp-btn-sm {
+  padding: 7px 16px;
+  font-size: 12.5px;
+}
+
+/* Variants */
+.pp-btn-primary {
+  background: var(--pp-sage);
+  color: #fff;
+  box-shadow: var(--pp-shadow-sage);
+}
+
+.pp-btn-primary:hover {
+  background: var(--pp-sage-hover);
+  box-shadow: 0 6px 20px rgba(143, 166, 140, 0.4);
+}
+
+.pp-btn-secondary {
+  background: transparent;
+  color: var(--pp-text-soft);
+  border: 1.5px solid var(--pp-warm-2);
+}
+
+.pp-btn-secondary:hover {
+  background: var(--pp-warm-1);
+  color: var(--pp-text);
+}
+
+.pp-btn-dark {
+  background: var(--pp-dark);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.pp-btn-dark:hover {
+  background: #111;
+}
+
+.pp-btn-ghost {
+  background: transparent;
+  color: var(--pp-text-soft);
+}
+
+.pp-btn-ghost:hover {
+  background: var(--pp-warm-1);
+  color: var(--pp-text);
+}
+
+.pp-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}

@@ -1,0 +1,45 @@
+.pp-input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pp-input-label {
+  font-family: var(--pp-font-body);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--pp-text-soft);
+  letter-spacing: 0.02em;
+}
+
+.pp-input {
+  background: var(--pp-bg);
+  border: 1.5px solid var(--pp-warm-2);
+  border-radius: var(--pp-radius-input);
+  padding: 10px 14px;
+  font-family: var(--pp-font-body);
+  font-size: 13.5px;
+  color: var(--pp-text);
+  transition: border-color var(--pp-transition-fast);
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pp-input::placeholder {
+  color: var(--pp-text-muted);
+}
+
+.pp-input:focus {
+  border-color: var(--pp-sage);
+}
+
+.pp-input-error {
+  border-color: var(--pp-coral);
+}
+
+.pp-input-error-text {
+  font-family: var(--pp-font-body);
+  font-size: 11px;
+  color: var(--pp-coral);
+}
