@@ -54,3 +54,12 @@
     transform: translateY(0);
   }
 }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .pp-modal-content {
+    padding: var(--pp-space-6);
+    border-radius: var(--pp-radius-card);
+    margin: 16px;
+  }
+}

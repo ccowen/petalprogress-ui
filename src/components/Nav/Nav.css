@@ -71,3 +71,16 @@
   align-items: center;
   gap: var(--pp-space-3);
 }
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .pp-nav-inner {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .pp-nav-inner {
+    padding: 0 16px;
+  }
+}

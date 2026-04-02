@@ -30,3 +30,14 @@
 .pp-card-pad-lg {
   padding: var(--pp-space-10);
 }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .pp-card-pad-lg {
+    padding: var(--pp-space-6);
+  }
+
+  .pp-card-pad-md {
+    padding: var(--pp-space-4);
+  }
+}
