@@ -14,11 +14,30 @@
   --pp-dark-2: #2A2420;
 
   /* ── Accents ── */
-  --pp-sage: #8FA68C;
-  --pp-sage-hover: #7d9479;
-  --pp-blue: #7B9BAF;
+  /* Book-cover palette */
+  --pp-primary: #B9536A;
+  --pp-primary-hover: #A3465B;
+  --pp-sky: #539BCF;
+  --pp-periwinkle: #7A7FB7;
+  --pp-orchid: #BE678C;
+  --pp-marigold: #D49537;
+  --pp-blush: #FAC9C3;
+  --pp-peach: #FBC48C;
+  --pp-sunflower: #FFCC08;
+
+  /* Extra hues for mandala slices that need more than the cover palette */
+  --pp-olive: #A4A680;
+  --pp-mauve: #9B8FA6;
+  --pp-teal: #6F9AA0;
+
+  /* Error/danger stays its own color so it never reads as the brand accent */
   --pp-coral: #C45A5A;
-  --pp-amber: #C4887A;
+
+  /* Legacy names, kept so existing CSS keeps working. Prefer the names above. */
+  --pp-sage: var(--pp-primary);
+  --pp-sage-hover: var(--pp-primary-hover);
+  --pp-blue: var(--pp-sky);
+  --pp-amber: var(--pp-marigold);
 
   /* ── Typography ── */
   --pp-font-display: 'Cormorant Garamond', serif;
@@ -35,7 +54,7 @@
   --pp-shadow-card: 0 4px 24px rgba(0, 0, 0, 0.04);
   --pp-shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.06);
   --pp-shadow-modal: 0 24px 64px rgba(0, 0, 0, 0.14);
-  --pp-shadow-sage: 0 4px 16px rgba(143, 166, 140, 0.3);
+  --pp-shadow-sage: 0 4px 16px rgba(185, 83, 106, 0.3);
 
   /* ── Transitions ── */
   --pp-transition-fast: 0.15s ease;
