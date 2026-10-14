@@ -33,7 +33,7 @@
 
 .pp-btn-primary:hover {
   background: var(--pp-sage-hover);
-  box-shadow: 0 6px 20px rgba(143, 166, 140, 0.4);
+  box-shadow: 0 6px 20px rgba(185, 83, 106, 0.4);
 }
 
 .pp-btn-secondary {
