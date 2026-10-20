@@ -17,3 +17,5 @@ export type { ModalProps } from "./components/Modal";
 
 export { Nav } from "./components/Nav";
 export type { NavProps, NavLink } from "./components/Nav";
+
+export { revealGifAlt } from "./revealGifAlt";
