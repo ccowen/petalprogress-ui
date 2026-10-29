@@ -5,7 +5,7 @@
  */
 export const revealGifAlt = {
   tiles14:
-    "An animated mandala with 14 tiles revealed: a round mosaic of soft orange tones, with a few tiles colored in pink, blue and green as small lights travel to them.",
+    "An animated mandala with 14 tiles revealed: a round mosaic of soft orange tones with a few patterned tiles in pink, blue and gold, with circles, stripes and dots, as small lights travel to them.",
   tiles88:
-    "An animated mandala with 88 tiles revealed: most of its rings filled in with pink, blue, peach, yellow and green, around a few remaining soft orange tiles.",
+    "An animated mandala with 88 tiles revealed: rings of patterned tiles in pink, gold and blue, with circles, stripes and dots, around a few remaining soft orange tiles.",
 } as const;
