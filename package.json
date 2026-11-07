@@ -32,6 +32,7 @@
     "url": "git+https://github.com/ccowen/petalprogress-ui.git"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsup && cp src/tokens.css dist/tokens.css && mkdir -p dist/assets && cp -R assets/. dist/assets/",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
